@@ -1,0 +1,13 @@
+<%- include('partials/header') %>
+
+<h1><%= title %></h1>
+
+<% if(isActive) { %>
+    <p>Active</p>
+<% } else { %>
+    <p>Inactive</p>
+<% } %>
+
+<%= new Date() %>
+
+<%- include('partials/footer') %>
